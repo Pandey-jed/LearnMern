@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal details form</title>
+</head>
+<body>
+    <h1>Basic form structure</h1>
+    <form>
+        <fieldset>
+            <legend>Basic form structure</legend>
+        <input type="text" placeholder="Enter your name  ---->" readonly>
+        <input type="text" name="name" placeholder="name">
+        <input type="password" name="password" placeholder="password">
+        <input type="text" name="email" placeholder="email"><br><br><hr>
+        <div><label for="nm">name-:</label>
+        <input id="nm"
+         type="text" 
+        name="name" 
+        placeholder="your name" required>
+       
+        </div><hr>
+        <div>
+            <label for="pas">password-:</label>
+            <input id="pas"
+             type="password"
+              name="password" 
+              placeholder="password" required>
+        </div><hr><hr>
+        <div>
+            <label for="em">email-:</label>
+            <input id="em" name="email" placeholder="email" required>
+        </div>
+        <div><hr><hr>
+            <label>gender-:</label>
+            <input type="radio" name="gen"/>male
+            <input type="radio" name="gen"/>female
+            <input type="radio" name="gen"/>other
+
+        </div>
+        <input type="submit" name="" id=""><br><br>
+        <input type="text" name="prename" value="abhi" readonly>
+         <div>
+            <label for="age">age-:</label>
+            <input id="age"
+             type="number"
+              name="age" 
+              min="1"
+              max="10"
+              placeholder="enter age" required>
+        </div><hr><hr>
+         <div>
+            <h2>skills</h2><br>
+            <label for="pa">Skills-:</label>
+            <input id="pa" type="checkbox" name="skill">java
+             <input id="pa" type="checkbox" name="skill">react
+              <input id="pa" type="checkbox" name="skill">mern
+        </div>
+        <input type="reset" name="reset">
+        <hr><hr>
+<input type="checkbox" name="chek">Please agree to continue <br><hr>
+<label for="clr">choose color</label>
+<input id="clr" type="color" ><br><hr>
+<input type="file" name="file">
+<input type="date" name="" id="">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
