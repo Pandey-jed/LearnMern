@@ -1,0 +1,17 @@
+ul li{
+    color: aqua;
+}
+ol{
+    color: red;
+    text-align: center;
+}
+.red{
+    color: brown;
+}
+#wrapper{
+    background-color: black;
+    
+}
+*{
+    background-color: antiquewhite;
+}

@@ -1,0 +1,22 @@
+li
+{
+    color: brown;
+}
+li:first-child{
+    color: blanchedalmond;
+}
+li:last-child{
+    color: blue;
+}
+li:first-of-type{
+    color: #000;
+}
+li:last-of-type{
+
+}
+li:nth-of-type(3){
+color: aqua;
+}
+/*{
+    border-bottom: red;
+}
