@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+.box{
+    border: 2px solid red;
+    padding: 2rem ;
+    width: 30%;
+    border-radius: 1.5rem;
+    margin-top: 5rem;
+    position: relative;
+    box-shadow:5px 3px 3px 7px pink;
+    /*box shadow horizontal vertical blur spread color you can add inside shadow also add (insite )before we can add inside or outside at a time*/
+
+    
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+
+}
+.box i{
+    font-size: 3rem;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -25%;
+    left: 38%;
+    background-color: #000;
+    border-bottom: 4px solid red;
+}
+.box h1{
+    font-weight: 700;
+}

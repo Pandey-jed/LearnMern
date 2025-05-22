@@ -1,0 +1,25 @@
+/* we want position with oour need
+property :- static ,fixed ,relative ,absolute ,striky
+new property top bottom left right
+fixed -not scroll element
+relativ - not fixed element
+absolute-*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    border:1px solid;
+    position: fixed;
+    top: 10px;
+}
+#parant{
+    border: 2px solid;
+    padding: 3rem;
+
+}
+#chield{
+    border: 1px solid;
+    padding: 1rem;
+}
