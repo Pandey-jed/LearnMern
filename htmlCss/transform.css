@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    transform:translate(50%) ;
+    /*translateX translateY 
+    translatr ,scle skew rotate*/
+}

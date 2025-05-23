@@ -1,0 +1,14 @@
+.wrap{
+    display: flex;
+    flex-wrap:;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(124, 71, 6);
+
+}

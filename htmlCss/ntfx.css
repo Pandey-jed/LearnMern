@@ -2,6 +2,44 @@ body{
     background-image: url(ntfx.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
-    box-sizing: border-box;
+    background-size: cover;
+   background-color:red;
+   
+
+} 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    height: 3rem;
+}
+img{
+    height: 150px;
+}
+button{
+    color: rgb(221, 218, 217);
+   background-color:rgb(225, 4, 59);
+   border: none;
+   border-radius: 4px;
+}
+h1{
+    font-size:35px;
+    color: aliceblue;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0px;
+}
+p{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0px;
+}
+.cool{
+    margin: 10rem;
 }
