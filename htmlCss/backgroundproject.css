@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.he{
+    
+    display: flex;
+    background-color: black;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(black,rgb(91, 83, 83));
+
+}
+button{
+  color: antiquewhite;
+  background-color:rgb(52, 48, 48);
+  border: none;
+}
+.first{
+    background-color: aliceblue;
+    color: black;
+}
+img{
+    width:100%;
+    height: 400px;
+}
+.gallery{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+
+}
+.s{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.gallery::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.bt{
+    background-color:black ;
+    color: aliceblue;
+    display: flex;
+    
+}
+.left{
+    width: 43%;
+}
+.right{
+    width: 33%;
+    height: 33%;
+}
