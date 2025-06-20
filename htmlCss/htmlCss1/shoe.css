@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(189, 186, 186);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    
+    border: 2px solid black;
+    background-image: linear-gradient(to right , red , blue);
+    transform: skew(30deg);
+    position: relative;
+}
+
+
+.try{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    background-color: tomato;
+}
+img{
+;
+}
