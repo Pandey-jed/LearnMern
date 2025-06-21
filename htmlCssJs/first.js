@@ -111,3 +111,45 @@ const person = {
         console.log("Hello, my name is " + this.name);
     }
 };
+console.log("The name of the person is: " + person.name);
+console.log("The age of the person is: " + person.age);
+console.log("The city of the person is: " + person.city);
+person.greet(); // Calling the greet method of the person object
+
+//
+// This is a simple array to store the names of fruits
+const fruits = ["Apple", "Banana", "Cherry", "Date", "Elderberry"];
+console.log("The fruits are: " + fruits.join(", "));
+// This is a simple forEach loop to iterate through the fruits array
+fruits.forEach((fruit, index) => {
+    console.log("Fruit " + (index + 1) + ": " + fruit);
+});
+
+
+
+// This is a simple map function to create a new array with the lengths of the fruits
+
+
+const fruitLengths = fruits.map(fruit => fruit.length);
+console.log("The lengths of the fruits are: " + fruitLengths.join(", "));
+
+
+
+// This is a simple filter function to create a new array with fruits that have more than 5 characters
+
+const longFruits = fruits.filter(fruit => fruit.length > 5);
+console.log("Fruits with more than 5 characters: " + longFruits.join(", "));
+
+
+
+
+// This is a simple reduce function to calculate the total length of all fruits
+
+
+const totalLength = fruits.reduce((accumulator, fruit) => accumulator + fruit.length, 0);
+console.log("The total length of all fruits is: " + totalLength);
+
+
+
+
+// This is a simple promise to simulate an asynchronous operation
