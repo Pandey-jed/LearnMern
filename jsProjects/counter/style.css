@@ -1,0 +1,92 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+.wrapper{
+   position: relative;
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow:
+    0 0 20px rgba(0, 0, 0, 0.8),
+    0 0 40px rgba(0, 100, 255, 0.2);
+  animation: pulseGlow 2.5s ease-in-out infinite;
+
+}
+.container::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #00f2ff, #b400ff, #00f2ff);
+  z-index: -1;
+  border-radius: 18px;
+  background-size: 400%;
+  animation: borderFlow 5s linear infinite;
+  filter: blur(10px);
+}
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow:
+      0 0 20px rgba(0, 0, 0, 0.8),
+      0 0 40px rgba(0, 100, 255, 0.2);
+  }
+  50% {
+    box-shadow:
+      0 0 30px rgba(0, 0, 0, 0.9),
+      0 0 60px rgba(0, 150, 255, 0.4);
+  }
+}
+
+@keyframes borderFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+button{
+   padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #00f2ff;
+}
+button:active {
+  transform: scale(0.97);
+}
