@@ -1,0 +1,40 @@
+body {
+  background: #121212;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #00ccff;
+}
+
+.choices button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background: #00ccff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.choices button:hover {
+  background: #0099cc;
+  transform: scale(1.1);
+}
+
+.result p {
+  margin: 10px 0;
+  font-size: 18px;
+}
