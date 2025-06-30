@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eaf6ff; /* light blue background */
+  color: #0a2540; /* deep blue text */
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+.navbar {
+  background: #cbeaff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar h1 {
+  color: #0066cc;
+}
+
+.navbar nav a {
+  margin-left: 15px;
+  color: #003366;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  color: #007acc;
+}
+
+.hero {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: #dff5ff;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #003366;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #004d80;
+}
+
+.hero .btn {
+  background: #0099ff;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.hero .btn:hover {
+  background: #007acc;
+}
+
+.projects, .skills, .education, .contact {
+  margin: 3rem 0;
+}
+
+.projects h2, .skills h2, .education h2, .contact h2 {
+  color: #004080;
+  margin-bottom: 1rem;
+}
+
+.project-card {
+  background: #f0fbff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 5px solid #00bfff;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+
+.skills li {
+  background: #d1f0ff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #003366;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.education p, .contact p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #cbeaff;
+  margin-top: 2rem;
+  border-radius: 10px;
+  color: #003366;
+}
