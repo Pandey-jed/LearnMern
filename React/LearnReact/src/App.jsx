@@ -88,7 +88,6 @@ import Form from './form.jsx'
     const App = () => {
       return (
         <div>
-          <h1>Form Example</h1>
           <Form />
         </div>
       );
